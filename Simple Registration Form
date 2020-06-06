@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+<h1> <strong> Registration </strong></h1>
+</body>
+
+<form>
+	<!-- First and Last name </!-->
+	<label> First Name: </label>
+	<input type="text" placeholder="John">
+	<label> Last Name: </label>
+	<input type="text" placeholder="Smith">
+	<br>
+
+	<!-- Gender </!-->
+	<label for="Male"> Male </label>
+	<input name= "Gender" id = "Male" value = "Male" type="radio"> 
+	<label for="Female"> Female </label>
+	<input name= "Gender" id = "Female" value = "Female" type="radio"> 
+	<label for="Other"> Other </label>
+	<input name= "Gender" id = "Other" value = "Other" type="radio"> 
+	<br>
+
+	<!-- Login Info </!-->
+	<label> Email: </label>
+	<input type="email" placeholder="your email" required>
+	<label> Password:</label>
+	<input type="password" placeholder="your password" required>
+	<br>
+
+	<!-- Birthday </!-->
+	<!-- Month </-->
+	<label> Birthday: </label>
+	<select name="Month"> 
+		<option value = "Jan"> January </option>
+		<option value = "Feb"> February </option>
+		<option value = "Mar"> March </option>
+	</select>
+
+	<!-- Days </-->
+	<select name="Days"> 
+		<option value = "one"> 1 </option>
+		<option value = "two"> 2 </option>
+		<option value = "three"> 3 </option>
+	</select>
+
+	<!-- Year </-->
+	<select name="Year"> 
+		<option value = "2000"> 2000 </option>
+		<option value = "2001"> 2001 </option>
+		<option value = "2002"> 2002 </option>
+	</select>
+	<br>
+
+	<!-- TOC </-->
+	<label>I agree to the terms and conditions </label>
+	<input type="checkbox" required>
+	<br>
+
+	<!-- Submit </-->
+	<button>Submit</button>
+</form>
+</html>
+
