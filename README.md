@@ -1,2 +1,2 @@
-# Web-Development-Exercise
+# Web-Development
 Web development exercises and projects 
